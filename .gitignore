@@ -1,0 +1,47 @@
+# Build results
+bin/
+obj/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / VSCode
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# ASP.NET environment settings
+appsettings.Development.json
+appsettings.Local.json
+
+# Secrets
+secrets.json
+
+# Entity Framework migrations snapshot (optional)
+*.db
+
+# Node (if frontend exists)
+node_modules/
+
+# Publish output
+publish/
+
+# Test results
+TestResults/
+
+# NuGet
+*.nupkg
+packages/
+
+# Docker
+docker-compose.override.yml
